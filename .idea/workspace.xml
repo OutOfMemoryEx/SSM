@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f8949b22-0262-4c5e-ab17-91a3ef1b0547" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ch2/Ch2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ch2/Ch2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ch2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ch2/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.openragonhuang.observe" />
       <recent name="com.openragonhuang.proxy" />
       <recent name="com.openragonhuang.reflect" />
     </key>
@@ -76,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CglibProxyTest.proxyTest">
+  <component name="RunManager" selected="JUnit.ProductListTest.observeTest">
     <configuration name="CglibProxyTest.proxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ch2" />
       <extension name="coverage">
@@ -88,6 +87,22 @@
       <option name="PACKAGE_NAME" value="com.openragonhuang.proxy" />
       <option name="MAIN_CLASS_NAME" value="com.openragonhuang.proxy.CglibProxyTest" />
       <option name="METHOD_NAME" value="proxyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterceptorJdkProxyTest.bind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ch2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.openragonhuang.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.openragonhuang.proxy" />
+      <option name="MAIN_CLASS_NAME" value="com.openragonhuang.proxy.InterceptorJdkProxyTest" />
+      <option name="METHOD_NAME" value="bind" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,8 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductListTest.observeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ch2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.openragonhuang.observe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.openragonhuang.observe" />
+      <option name="MAIN_CLASS_NAME" value="com.openragonhuang.observe.ProductListTest" />
+      <option name="METHOD_NAME" value="observeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductListTest.observeTest" />
+        <item itemvalue="JUnit.InterceptorJdkProxyTest.bind" />
         <item itemvalue="JUnit.CglibProxyTest.proxyTest" />
         <item itemvalue="JUnit.JdkProxyTest.bind" />
       </list>
@@ -130,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571453829061</updated>
       <workItem from="1571453830908" duration="1065000" />
-      <workItem from="1571466940024" duration="4809000" />
+      <workItem from="1571466940024" duration="8832000" />
     </task>
     <servers />
   </component>
