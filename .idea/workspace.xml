@@ -7,6 +7,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ch3/src/main/resources/mybatis/mapper/role-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ch3/src/main/resources/mybatis/mapper/role-mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ch3/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ch3/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,21 +43,15 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="t_role: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -90,6 +86,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Ch4/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -97,17 +94,28 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.opendragonhuamg.typehandler.util" />
       <recent name="com.opendragonhuang.util" />
       <recent name="com.openragonhuang.observe" />
       <recent name="com.openragonhuang.proxy" />
       <recent name="com.openragonhuang.reflect" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\IdeaProjects\SSM\Ch4\src\main\resources\com\opendragonhuang\typehandler" />
+      <recent name="D:\Documents\IdeaProjects\SSM\Ch4\src\main\java\com\opendragonhuamg\typehandler\mapper" />
+      <recent name="D:\Documents\IdeaProjects\SSM\Ch4\src\main\resources" />
+      <recent name="D:\Documents\IdeaProjects\SSM\Ch3\src\main\resources\db" />
+      <recent name="D:\Documents\IdeaProjects\SSM\Ch3\src\main\resources\mybatis" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Documents\IdeaProjects\SSM\Ch3\src\main\resources\db" />
-      <recent name="D:\Documents\IdeaProjects\SSM\Ch3\src\main\resources\mybatis" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mapper" />
+      <recent name="com.opendragonhuamg.typehandler.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\IdeaProjects\SSM\Ch4\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -122,23 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SqlSessionFactoryUtilsTest.mybatisTest">
-    <configuration name="CglibProxyTest.proxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ch2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.openragonhuang.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.openragonhuang.proxy" />
-      <option name="MAIN_CLASS_NAME" value="com.openragonhuang.proxy.CglibProxyTest" />
-      <option name="METHOD_NAME" value="proxyTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SqlSessionFactoryUtilsTest.typeHandlerTest (1)">
     <configuration name="InterceptorJdkProxyTest.bind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ch2" />
       <extension name="coverage">
@@ -149,22 +141,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.openragonhuang.proxy" />
       <option name="MAIN_CLASS_NAME" value="com.openragonhuang.proxy.InterceptorJdkProxyTest" />
-      <option name="METHOD_NAME" value="bind" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JdkProxyTest.bind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ch2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.openragonhuang.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.openragonhuang.proxy" />
-      <option name="MAIN_CLASS_NAME" value="com.openragonhuang.proxy.JdkProxyTest" />
       <option name="METHOD_NAME" value="bind" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -203,13 +179,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SqlSessionFactoryUtilsTest.typeHandlerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ch4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.opendragonhuang.typehandler.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.opendragonhuang.typehandler.util" />
+      <option name="MAIN_CLASS_NAME" value="com.opendragonhuang.typehandler.util.SqlSessionFactoryUtilsTest" />
+      <option name="METHOD_NAME" value="typeHandlerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqlSessionFactoryUtilsTest.typeHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ch4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.opendragonhuamg.typehandler.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.opendragonhuamg.typehandler.util" />
+      <option name="MAIN_CLASS_NAME" value="com.opendragonhuamg.typehandler.util.SqlSessionFactoryUtilsTest" />
+      <option name="METHOD_NAME" value="typeHandlerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SqlSessionFactoryUtilsTest.typeHandlerTest (1)" />
+        <item itemvalue="JUnit.SqlSessionFactoryUtilsTest.typeHandlerTest" />
         <item itemvalue="JUnit.SqlSessionFactoryUtilsTest.mybatisTest" />
         <item itemvalue="JUnit.ProductListTest.observeTest" />
         <item itemvalue="JUnit.InterceptorJdkProxyTest.bind" />
-        <item itemvalue="JUnit.CglibProxyTest.proxyTest" />
-        <item itemvalue="JUnit.JdkProxyTest.bind" />
       </list>
     </recent_temporary>
   </component>
@@ -220,12 +228,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@bac66d5a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d31e685e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@bac66d5a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@46234b28" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d31e685e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@20499829" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -249,7 +257,9 @@
       <workItem from="1571487496678" duration="13000" />
       <workItem from="1571533864615" duration="2462000" />
       <workItem from="1571557645576" duration="253000" />
-      <workItem from="1571557959448" duration="4693000" />
+      <workItem from="1571557959448" duration="5503000" />
+      <workItem from="1571623081764" duration="11722000" />
+      <workItem from="1571732196155" duration="631000" />
     </task>
     <servers />
   </component>

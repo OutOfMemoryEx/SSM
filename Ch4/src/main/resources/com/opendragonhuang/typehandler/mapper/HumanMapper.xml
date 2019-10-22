@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.opendragonhuang.typehandler.mapper.HumanMapper">
+    <resultMap id="human" type="com.opendragonhuang.typehandler.model.Human">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="sex" column="sex" javaType="com.opendragonhuang.typehandler.enums.SexEnum" jdbcType="TINYINT"/>
+    </resultMap>
+    <select id="findHuman" parameterType="long" resultMap="human">
+        select id, name, sex
+        from human
+        where id = #{id}
+    </select>
+
+    <insert id="insertHuman" parameterType="com.opendragonhuang.typehandler.model.Human" useGeneratedKeys="true">
+        insert into human(name, sex)
+        values(#{name}, #{sex, typeHandler=com.opendragonhuang.typehandler.typehandlers.SexEnumTypeHandler})
+    </insert>
+</mapper>
